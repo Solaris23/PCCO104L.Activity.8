@@ -1,4 +1,4 @@
-﻿namespace PCCO104L.Activity._7
+﻿namespace PCCO104L.Activity._8
 {
     internal class Program
     {
@@ -7,6 +7,22 @@
             Car carFerrari = new Car(80.71, "Ferrari", 80000, "Italy", "Gasoline", 70000);
             carFerrari.globalRating();
             carFerrari.StartEngine();
+
+            Car carAudi = new Car(45.23, "Audi", 50000, "Germany", "Gasoline", 50000);
+            carAudi.globalRating();
+            carAudi.TurnOnHeadlights();
+
+            Car carHonda = new Car(25.27, "Honda", 25000, "Japan", "Gasoline", 65000);
+            carHonda.globalRating();
+
+            Car carNissan = new Car(26.64, "Nissan", 28000, "Japan", "Gasoline", 32000);
+            carNissan.globalRating();
+
+            Car carPorsche = new Car(81.25, "Porsche", 85000, "Germany", "Gasoline", 41000);
+            carPorsche.globalRating();
+
+            Car carCadillac = new Car(66.65, "Cadillac", 65000, "USA", "Gasoline", 38000);
+            carCadillac.globalRating();
 
             ElectricCar teslaCar = new ElectricCar(90.45, "Tesla", 75000, "USA", 300);
             teslaCar.globalRating();
